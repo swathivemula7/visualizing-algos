@@ -1,0 +1,11 @@
+.home {
+    display: flex;
+    height: 100%;
+    background-color: rgb(255, 253, 111);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .home {
+      flex-direction: column;
+    }
+  }
