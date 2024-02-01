@@ -21,10 +21,6 @@ const updateProps = (state=initializer,action) => {
          return {...state, range:action.range, values:arr};
       }
 
-      case 'UPDATE_VALUES': {
-         return {...state,values:action._values};
-      }
-
       case 'UPDATE_SPEED':{
          return {...state, speed:action.speed};
       }
@@ -37,9 +33,7 @@ const updateProps = (state=initializer,action) => {
          return {...state, algorithm:action.algorithm};
       }
 
-      case 'UPDATE_TIEMOUTS':{
-         return {...state, timeouts:action._timeouts};
-      }
+      
 
       case 'CHANGE_VALUES':{
          let arr=[],range = state.range;
