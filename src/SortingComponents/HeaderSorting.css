@@ -1,0 +1,43 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #474849;
+    padding: 0px 80px;
+    color: rgba(237, 227, 227, 0.729);;
+  }
+  
+  .header span {
+    color: rgb(236, 229, 108);
+  }
+  
+  .header-logo {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: -60px;
+  }
+  
+  .header__option {
+    font-weight: 500;
+    margin-left: 100px;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+    color: rgba(237, 227, 227, 0.729);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .header-logo {
+      margin-right: -50px;
+    }
+  
+    .header {
+      padding: 0px 10px;
+    }
+  
+    .header__option {
+      font-size: 0.9rem;
+    }
+  }
